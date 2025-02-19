@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Knight : ChessPiece
 {
-    // Possible moves for the knight
+    // moves for the knight
     private static readonly Vector2Int[] moveOffsets = 
     {
         new Vector2Int(2, 1),  new Vector2Int(2, -1),
