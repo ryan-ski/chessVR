@@ -30,7 +30,7 @@ public class Knight : ChessPiece
 
         return validMoves;
     }
-
+    // makes sure moves are within board space
     private bool IsWithinBoard(Vector2Int position)
     {
         return position.x >= 0 && position.x < 8 && position.y >= 0 && position.y < 8;
